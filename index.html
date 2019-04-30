@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Electrical Inspections | Repairs | Troubleshooting </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<style>
+body{
+  background-image: url();
+  margin: 0px;
+  padding: 0px;
+
+
+}
+.container-fluid
+{
+  padding:20px;
+  background-color: #fff;
+}
+.nav navbar-nav navbar-right
+{
+  padding:30px;
+  float: right;
+  margin-right: 10px;
+}
+.para {
+  background-position: 50% 50%;
+background-position-x: 50%;
+background-position-y: 50%;
+                height:550px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width:100%;
+   margin-top:-30px;
+    background-blend-mode: overlay;
+    background-image: url("http://www.lselectrician.com/wp-content/uploads/2018/08/electrical.png");
+}
+  
+  .tx
+  {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  margin-bottom:  20px;
+  }
+  .footer
+  {
+    background-color:#656565;
+  }
+  .container
+  {
+    height:auto;
+    background-color: #fff;
+    width: 100%;
+
+  
+    
+  }
+  .row
+  {
+    padding:30px;
+    width: 100%;
+  }
+  .fab {
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  letter-spacing:2px;
+}
+
+ .fab:hover {
+    opacity: 0.5;
+}
+.txt
+{
+  margin:20px;
+}
+#content{ margin: auto; width: 100%; padding: 10px;}
+.button {
+    background-color: #1e4278;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: #24c9c3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.header {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 20px 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  opacity: 0.9;
+}
+.header a {
+  float: left;
+  color: #black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  padding-top: -40px;
+  margin-top: 30px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.logo-2 a:hover{
+   background-color:black;
+}
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  margin-top: 30px;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+.slideshow-container {
+ width: 100%;
+  position: relative;
+  margin-top: 27px;
+  height: 90%;
+  background-color: white;
+}
+
+/* Caption text */
+.text {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.qua-separator {
+    background-color: #31A3DD;
+        height: 5px;
+    margin: 37px auto 0;
+    width: 100px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+  </style>
+</head>
+<body>
+<div class="header">
+  <a class="logo-2" href="http://www.lselectrician.com"><h2 style="color: #000">LS Electrician Singapore</h2></a>
+  <div class="header-right">
+     <a class="active"  href="http://www.lselectrician.com">Home</a></li>
+          
+   <a  href="http://www.lselectrician.com/about-us/">About</a></li>
+   <a  href="http://www.lselectrician.com/services/">Services</a></li>
+     <a  href="http://www.lselectrician.com/contact-us/">Contact</a></li>
+  </div>
+</div>
+<div class="para">
+<div class="bg-text">
+  <h2 style="color: #fff;font-size: 32px;text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);">Highly Trained Team  </h2>
+<h2 style="color: #fff;background-color: rgba(49, 163, 221, 0.7);text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);font-size: 42px">Friendly and Fast</h2>
+<h3 style="color: #fff;font-size: 32px;text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);">100% Satisfaction</h3>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="container">
+  
+<div id="content">
+
+<a style="text-align: center;" href="http://www.lselectrician.com/"><h2>Electrical Inspections Singapore</h2></a>
+
+<p align="justify" style="font-size:16px;margin-left: 30px">Having your electrics wired up properly is crucial if you want to stay safe in your home. It doesn’t matter whether you have a faulty light switch, a loose connection on your plug socket or even problems with your fuse box, because trying to DIY the problem is just going to put you and your family at risk. Our team can help you with that, by providing you with some of the finest electrician services around and at a record-price.
+
+</p>
+
+<p align="justify" style="font-size:16px;margin-left: 30px">
+Our team are trained to the highest possible standard and we work diligently to make sure that they know everything there is to know about circuits, complex electrical units and more. We can perform:
+<ul>
+  <li>
+Electrical Inspections</li>
+<li>Electrical Repairs</li>
+<li>Electrical Troubleshooting</li>
+
+</p>
+<img style="width: 100%" src="http://www.pyramidsolution.co.uk/wp-content/uploads/2016/07/Electrical-Works_new.jpg">
+<p style="border-top-style: double;color: black"></p>
+<h3 align="center"><a href="http://www.lselectrician.com/">Electrical Repairs Singapore</a></h3>
+<p align="justify" style="font-size:16px">
+What We Can Do For You
+<br>
+We don’t believe in providing substandard work and we also do everything we can to make sure that the job is done perfectly, the first time around. We will also work by your side to make sure that you are happy with the end result, and that everything is in order before we leave. It is this level of attention to detail that helps us to surpass the expectations of our customers, every time.
+
+
+</p>
+<p align="justify" style="font-size:16px">
+Highly Trained Team
+<br>
+Our team of electricals are more than qualified to handle any given task.</p>
+
+<p align="justify" style="font-size:16px">
+Fully Insured
+<br>
+We are completely insured to the highest level.
+
+
+</p>
+<img style="width: 100%" src="https://cdn.website.thryv.com/979e84a9a1a54432b5c54c7fa2b2702b/dms3rep/multi/mobile/231.jpg">
+<p style="border-top-style: double;color: black"></p>
+<h3><a href="http://www.lselectrician.com/">Electrical Troubleshooting Singapore </a></h3>
+<p align="justify" style="font-size:16px">
+
+
+Friendly and Fast
+<br>
+You won’t be waiting long to get our team at your location.
+</p>
+<p align="justify" style="font-size:16px">
+100% Satisfaction
+<br>
+We will continue to work until you are 100% satisfied with the job that has been done.
+
+</p>
+
+<p align="justify" style="font-size:16px">
+Why Choose Us?
+<br>
+A lot of our customers know how hard it can be to stay on top of everything to do with their electrics. After all, if you have old copper wires or fraying circuits then this can cause electrical glitches and it can also pose as a fire hazard in your home as well. Our team can help you to avoid all of that, by providing you with the finest services around.
+</p>
+
+
+<p align="justify" style="font-size:16px">
+We know that when you need an electrician, you need someone who you can trust to get the job done quickly and efficiently. Unfortunately, there are so many electricians out there who are not bothered at all about your welfare or even your safety, and they will agree to do jobs that they have absolutely no experience in, just to get paid.
+</p>
+
+
+<p align="justify" style="font-size:16px">
+This isn’t something that we believe in, and we are continually doing everything we can to make sure that our customers know that. When you come to our team, we will do everything we can to make sure that you are happy with the service that you have been given and we will also make sure that the job is done in record time as well. If you are on an emergency turnaround time or if you need someone who can come out to you right there and then, we can take care of that, and we pride ourselves on always going that extra mile to make sure that our customers are truly satisfied every step of the way.
+</p>
+
+<p align="justify" style="font-size:16px">
+
+With years of experience in the electrical industry, it is safe to say that we have worked on absolutely every device imaginable, and we even have experience in dealing with old and dangerous wiring as well. The best thing about our team is that we are a one-stop shop, so if you need anything done at all, you know that we are the right team for the job. If you need to know more or if you would like to see if we can help you then please do get in touch with us today. We are very excited to hear from you and we can’t wait to help you get your questions answered. You can contact us by phone or by email.
+
+
+</p>
+<img style="width: 100%" src="https://irp-cdn.multiscreensite.com/87e0a02f/dms3rep/multi/desktop/detlevs-electrical-repairs-767x510.jpg">
+<p align="justify" style="font-size:16px">
+
+Our team are really diligent in their approach to our customer satisfaction. They know more than anybody else how important it is for you to keep all of your electrics in check and this is especially the case when you operate your own business. That is why we will work by your side to make sure that you get the finest services around and without compromise.  </p>
+<p align="justify" style="font-size:16px">
+  When you come to us, we can provide you with:
+<ul>
+<li>Commercial Electricity Services</li>
+<li>Electrical Repairs</li>
+<li>Domestic Electricity Services</li>
+<li>Electrical Inspections</li>
+<li>And more</li></ul>
+</p>
+<p align="justify" style="font-size:16px">
+  Of course, when you come to our team, you will soon see that we are all fully certified and you will also see that we care about our customers very much. Electrical maintenance is just one of the many services that we provide, and this helps to ensure that the devices that you have are kept in good condition and that they are completely safe. We can also do an inspection of a new property you have purchased to make sure that the electrical units are up to date and that they meet all of the new regulations as well. If you are a landlord then this is especially useful, as it can save you a ton of time, money and headaches.
+</p>
+<p align="justify" style="font-size:16px">
+  That being said, we can also provide any electrical repairs you need and if you have a power outage, we will be first on the scene to help you work your backup generator or to even help you get your power back. If you are interested in finding out more or if you are interested to see how we can help you then one thing that you can do is contact us today. We would love to hear from you and we are very excited to show you what we can do.
+  </p>
+  <br>
+ <p style="font-size: 20px">How Our Clients Say About LS Electrician</p>
+<img src="https://i.imgur.com/oj9qFXG.png">
+<p style="text-align: center;font-size: 23px">Click to Contact Us Now at<a href="tel:66318968"> 66318968</a></p>
+</div>
+</div>
+
+
+<div class="footer" style="background-color:#1e4278">
+<div class="row">
+<div class="col-sm-4">
+<h4 style="color:white">About Us</h4>
+<p style="color: #fff;text-align: justify;">We know that when you need an electrician, you need someone who you can trust to get the job done quickly and efficiently. Unfortunately, there are so many electricians out there who are not bothered at all about your welfare or even your safety, and they will agree to do jobs that they have absolutely no experience in, just to get paid.</p>
+
+
+</div>
+
+<div class="col-sm-4">
+  
+<h4 style="color:white">Services</h4>
+<ul>
+	<li style="color: #fff"><a style="color: #fff" href="https://generalblog.nyc3.digitaloceanspaces.com/Home-Improvement/Electrical-Inspections.html">Electrical Inspections Singapore</a></li>
+	<li style="color: #fff"><a style="color: #fff" href="https://generalblog.oss-ap-south-1.aliyuncs.com/Home-Improvement/Electrical-Inspections.html">Electrical Repairs Singapore</a></li>
+	<li style="color: #fff"><a style="color: #fff" href="
+https://storage.googleapis.com/generalcategory/Home-Improvement/Electrical-Inspections.html">Electrical Troubleshooting Singapore</a></li>
+
+</ul>
+
+  <h4 style="color:white">Contact Us</h4>
+<p style="color:white;" ALIGN="justify">28 New Upper Changi Rd, #04-724, Singapore 460028</p>
+<p style="color:white;" align="justify">Tel:66318968</p>
+  
+<!-- InstaWidget -->
+
+</div>
+<div class="col-sm-4">
+  
+<h4 style="color:white">We Are Here</h4>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31910.028282091247!2d103.934906!3d1.323737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x362ffded2859009c!2sLS+Electrician+Singapore+%26+Electrical+Services!5e0!3m2!1sen!2smy!4v1556173218852!5m2!1sen!2smy" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+
+</div>
+
+</div>
+</div>
+<div class="footer" style="background-color:#0d384f;">
+<div class="row">
+<p align="center">
+
+</p>
+</div>
+</div>
+
+
+</body>
+</html>
